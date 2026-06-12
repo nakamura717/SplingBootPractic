@@ -13,7 +13,7 @@ public class ProfileController {
 				@RequestParam(name = "age", required = false, defaultValue = "20")String age, Model model
 			) {
 		model.addAttribute("age", age);
-		
+		//ここには送るhtmlファイルなどを書く
 		return "profile";
 	}
 
