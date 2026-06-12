@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>好きな食べものとその理由</title>
+</head>
+<body>
+	<h1>好きな食べ物発表ドラゴンがーーー<br>好きな食べ物を発表しますーー<br>
+	<b><span th:text = "${food}">ここに食べ物(30文字以内)</span></b> </h1>
+	<h2>理由：<span th:text= "${reason}">理由が入るよ(100文字以内)</span></h2>
+</body>
+</html>
